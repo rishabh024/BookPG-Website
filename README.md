@@ -1,1 +1,1 @@
-# BookPG-Website : Our first front-end project
+# BookPG-Website : This website is developed using front-end technologies using HTML, CSS, JS.
