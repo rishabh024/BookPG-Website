@@ -81,6 +81,7 @@
     color: blue;
 }
 .PGinformation .PGinfo p{
+    height: 500px;
     font-size: 22px;
     text-align: justify;
     color: white;
