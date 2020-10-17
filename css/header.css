@@ -43,9 +43,11 @@ header .header2 h1{
     display: inline-block;
     line-height: 80px;
     position: relative;
+    
 }
 .header2 .menu li a{
     display: block;
+    
     text-decoration: none;
     color: blue;
     text-transform: uppercase;
@@ -54,12 +56,13 @@ header .header2 h1{
     transition: 0.4s;
 }
 .header2 .menu li a:hover{
-    background-color: blue;
-    color: white;
+    /* background-color: blue; */
+    color: orange;
+    box-shadow: 3px 3px 3px black;
 }
 .submenu{
     position: absolute;
-    background-color: black;
+    background-color:white;
     
     width: 150px;
     left: 0;
@@ -71,9 +74,11 @@ header .header2 h1{
 }
 .menu li:hover .submenu{
     display: block;
+    box-shadow: 3px 3px 3px black;
+    
 }
 header .test{
-    background-color: yellow;
+    background-color: white;
     position: fixed;
     top: 0;
     z-index: 1;
@@ -87,7 +92,7 @@ header .test{
 header .test h1{
             /* position: absolute; */
             
-    color: white;
+    color: blue;
     text-transform: uppercase;
     padding-left: 40px;
             /* z-index: 1; */
@@ -107,15 +112,16 @@ header .test h1{
 }
 .test .menu li a{
     display: block;
+    
     text-decoration: none;
-    color: blue;
+    color: gray;
     text-transform: uppercase;
     font-size: 18px;
     width: 150px;
     transition: 0.4s;
 }
 .test .menu li a:hover{
-    background-color: blue;
-    color: white;
+    box-shadow: 3px 3px 3px black;
+    color: orange;
 }
         
