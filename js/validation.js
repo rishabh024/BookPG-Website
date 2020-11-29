@@ -35,7 +35,7 @@ function valid() {
         document.getElementById("email-fails").style.visibility = "visible";
         return false;
     } else {
-        if (email.value.trim().match(/^([A-Za-z0-9\.-_]+)@([a-z]+)\.([a-z]{2,3})\.([a-z]{2,5})$/)) {
+        if (email.value.trim().match(/^([A-Za-z0-9\.-_]+)@([a-z]+)\.([a-z]{2,3})\.([a-z]{2,5})$/)|| email.value.trim().match(/^([A-Za-z0-9\.-_]+)@([a-z]+)\.([a-z]{2,3})$/)) {
             email.style.border = "3px solid green";
 
 
