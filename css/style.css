@@ -46,3 +46,50 @@ ul li{
 .shit a{
     color: white;
 }
+/*      Form styling              */
+form{
+    text-align: center;
+}
+.subform {
+    position: relative;
+}
+.subform label{
+    font-weight: bold;
+    color: #a71d2a;
+    display: block;
+margin-top: 5px;
+   text-align: left;
+}
+.subform input{
+    display: block;
+width: 100%;
+    border-radius: 10px;
+    border: 2px solid gainsboro;
+}
+.subform small{
+    position: absolute;
+    left: 0 ;
+}
+.subform i{
+    position: absolute;
+right: 10px;
+    top: 40px;
+}
+.subform select{
+    width: 100%;
+    border-radius: 10px;
+    border: 2px solid gainsboro;
+}
+
+
+
+i{
+    visibility: hidden;
+}
+
+form button{
+    background-color: #002752;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
