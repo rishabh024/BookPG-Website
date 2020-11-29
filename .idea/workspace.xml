@@ -19,16 +19,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cb0c6dfb-9e95-40e8-a209-dd30edae7bf8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Book-single.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Divider.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/delexue.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/family.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imgs/family-room4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imgs/images_IMG_9009-1024x683.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imgs/single-room1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/validation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+    <list default="true" id="cb0c6dfb-9e95-40e8-a209-dd30edae7bf8" name="Default Changelist" comment="roomdone">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Book-single.html" beforeDir="false" afterPath="$PROJECT_DIR$/Book-single.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Divider.html" beforeDir="false" afterPath="$PROJECT_DIR$/Divider.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/delexue.html" beforeDir="false" afterPath="$PROJECT_DIR$/delexue.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/family.html" beforeDir="false" afterPath="$PROJECT_DIR$/family.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/room.html" beforeDir="false" afterPath="$PROJECT_DIR$/room.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -77,8 +74,16 @@
       <workItem from="1606582391619" duration="2057000" />
       <workItem from="1606584808565" duration="667000" />
       <workItem from="1606585502517" duration="1071000" />
-      <workItem from="1606629539135" duration="10008000" />
+      <workItem from="1606629539135" duration="10670000" />
     </task>
+    <task id="LOCAL-00001" summary="roomdone">
+      <created>1606643627063</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1606643627063</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -98,5 +103,13 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="roomdone" />
+    <option name="LAST_COMMIT_MESSAGE" value="roomdone" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="311" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1606643635062">
+      <screen x="66" y="27" width="1300" height="741" />
+    </state>
+    <state x="311" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2/66.27.1300.741@66.27.1300.741" timestamp="1606643635062" />
   </component>
 </project>
