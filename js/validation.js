@@ -13,7 +13,7 @@ function valid() {
         document.getElementById("name-fails").style.visibility = "visible";
         return false;
     } else {
-        if (name.value.trim().match(/^[A-Za-z0-9]+$/g)) {
+        if (name.value.trim().match(/^[A-Za-z0-9 ]+$/g)) {
             name.style.border = "3px solid green";
 
 
@@ -21,7 +21,7 @@ function valid() {
 
         } else {
             name.style.border = "3px solid red";
-            document.getElementById("namerror").innerHTML = "Only lower case and number's allowed.";
+            document.getElementById("namerror").innerHTML = "No space are allowed.";
             document.getElementById("name-fails").style.visibility = "visible";
 
             return false;
@@ -35,7 +35,7 @@ function valid() {
         document.getElementById("email-fails").style.visibility = "visible";
         return false;
     } else {
-        if (email.value.trim().match(/^([A-Za-z0-9\.-]+)@([a-z]+)\.([a-z]){2,3}$/g)) {
+        if (email.value.trim().match(/^([A-Za-z0-9\.-_]+)@([a-z]+)\.([a-z]{2,3})\.([a-z]{2,5})$/)) {
             email.style.border = "3px solid green";
 
 

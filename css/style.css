@@ -52,12 +52,15 @@ form{
 }
 .subform {
     position: relative;
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 .subform label{
     font-weight: bold;
-    color: #a71d2a;
+    color: purple;
     display: block;
-margin-top: 5px;
+margin-top: 10px;
+
    text-align: left;
 }
 .subform input{
@@ -68,7 +71,11 @@ width: 100%;
 }
 .subform small{
     position: absolute;
+    color: red;
+    font-size: 3vh;
     left: 0 ;
+    margin-top: 5px;
+    margin-bottom: 10px;
 }
 .subform i{
     position: absolute;
