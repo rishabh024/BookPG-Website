@@ -1,4 +1,4 @@
-header{
+/* header{
     height: 600px;
     width: 100%;
     display: flex;
@@ -24,17 +24,13 @@ header .header2{
     
 }
 header .header2 h1{
-    /* position: absolute; */
     
     color: white;
     text-transform: uppercase;
     padding-left: 40px;
-    /* z-index: 1; */
 }
 .header2 .menu{
     
-    /* position: absolute;
-    z-index: 1; */
     list-style: none;
     text-align: center;
     padding-right: 40px;
@@ -56,7 +52,6 @@ header .header2 h1{
     transition: 0.4s;
 }
 .header2 .menu li a:hover{
-    /* background-color: blue; */
     color: orange;
     box-shadow: 3px 3px 3px black;
 }
@@ -90,17 +85,12 @@ header .test{
             
 }
 header .test h1{
-            /* position: absolute; */
             
     color: blue;
     text-transform: uppercase;
     padding-left: 40px;
-            /* z-index: 1; */
 }
 .test .menu{
-            
-    /* position: absolute;
-    z-index: 1; */
     list-style: none;
     text-align: center;
     padding-right: 40px;
@@ -124,4 +114,533 @@ header .test h1{
     box-shadow: 3px 3px 3px black;
     color: orange;
 }
+         */
+         .header2 .show-btn:hover , .hide-btn:hover{
+            color: black;
+            /* transition: 2s; */
+        }
+        .show-btn , .hide-btn{
+            font-size: 30px;
+            /* color: white; */
+            color: black;
+            line-height: 80px;
+            display: none;
+        }
+        .show-btn{
+            float: right;
+        }
         
+        #chk {
+            position:absolute ;
+            visibility: hidden;
+            z-index: -10;
+        }
+        /* ------------------------------------------------header---------------------------------------------------------------- */
+        @media(min-width: 900px){
+            header{
+    height: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-img img{
+    top: 0;
+    width: 100%;
+    position: absolute;
+    height: 600px;
+}
+header .header2{
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 20;
+
+    
+}
+header .header2 h1{
+    color: white;
+    text-transform: uppercase;
+    padding-left: 40px;
+}
+.header2 .menu{
+    list-style: none;
+    text-align: center;
+    padding-right: 40px;
+}
+.header2 .menu li{
+    display: inline-block;
+    line-height: 80px;
+    position: relative;
+    
+}
+.header2 .menu li a{
+    display: block;
+    text-decoration: none;
+    color: blue;
+    text-transform: uppercase;
+    font-size: 18px;
+    width: 150px;
+    transition: 0.4s;
+}
+.header2 .menu li a:hover{
+    color: orange;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.8), 0 0 3px rgba(0,0,0,0.05);
+}
+.submenu{
+    position: absolute;
+    background-color:none;
+    width: 150px;
+    left: 0;
+    display: none;
+}
+.submenu li a{
+    font-size: 20px;
+    text-transform: lowercase;
+}
+.menu li:hover .submenu{
+    display: block;
+     border: 2px black;     
+}
+header .test .menu li .submenu{
+    position: absolute;
+    background-color:white;
+    width: 150px;
+    left: 0;
+    display: none;
+}
+header .test .menu li .submenu li a{
+    font-size: 20px;
+    text-transform: uppercase;
+}
+header .test .menu li:hover .submenu{
+    display: block;
+     border: 2px black;
+}
+header .test{
+    background-color: white;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 20;
+
+}
+header .test h1{
+    color: blue;
+    text-transform: uppercase;
+    padding-left: 40px;
+}
+.test .menu{
+    list-style: none;
+    text-align: center;
+    padding-right: 40px;
+}
+.test .menu li{
+    display: inline-block;
+    line-height: 80px;
+    position: relative;
+}
+.test .menu li a{
+    display: block;
+    text-decoration: none;
+    color: gray;
+    text-transform: uppercase;
+    font-size: 18px;
+    width: 150px;
+    transition: 0.4s;
+}
+.test .menu li a:hover{
+    color: orange;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.8), 0 0 3px rgba(0,0,0,0.05);
+} 
+        }
+        @media(min-width: 600px) and (max-width: 899px){
+            header{
+            height: 600px;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            z-index: 20;
+            }
+            .header-img img{
+            top: 0;
+            width: 100%;
+            position: absolute;
+            height: 600px;
+            }
+            .header2{
+            position:fixed;
+            top: 0;
+            width: 100%;
+            height: 80px;
+            background-color: none;
+            padding-right: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+    z-index: 20;
+
+            }
+            header .header2 h1{    
+            color: white;
+            text-transform: uppercase;
+            padding-left: 40px;
+            }
+            .header2 .menu{
+            list-style: none;
+            text-align: center;
+            float: right;   
+            }
+            .header2 .menu li{
+            display: block;
+            line-height: 80px;
+            position: relative;
+            }
+            .header2 .menu li a{
+            display: block;
+            text-decoration: none;
+            text-transform: uppercase;
+            color: white;
+            width: 150px;
+            font-size: 20px;
+            transition: 1s;
+            }
+            .header2 .menu li a:hover{
+            background-color: none;
+            color: black;
+            }
+        .submenu{
+        position: absolute;
+        background-color:rgb(146, 146, 140) ;
+        width: 250px;
+        top: 0px;
+        left: 70%;
+        display: none;
+        }
+        .submenu li a{
+        font-size: 20px;
+        text-transform: lowercase;
+        }
+        .menu li:hover .submenu{
+        display: block;
+        box-shadow: 0 1px 3px rgba(0,0,0,0.8), 0 0 3px rgba(0,0,0,0.05);
+        }
+        header .test .menu li .submenu{
+        position: absolute;
+        background-color:rgb(146, 146, 140) ;
+        width: 250px;
+        top: 0px;
+        left: 70%;
+        display: none;
+        }
+        header .test .menu li .submenu li a{
+        font-size: 20px;
+        text-transform: uppercase;
+        }
+        header .test .menu li:hover .submenu{
+        display: block;
+        box-shadow: 0 1px 3px rgba(0,0,0,0.8), 0 0 3px rgba(0,0,0,0.05);
+        }
+        header .test{
+        background-color: white;
+        position: fixed;
+        top: 0;
+        z-index: 1;
+        height: 80px;
+        width: 100%;
+        padding-right: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    z-index: 100;
+
+        }
+        header .test h1{
+        color: blue;
+        text-transform: uppercase;
+        padding-left: 40px;
+        }
+        .test .menu{
+        list-style: none;
+        text-align: center;
+        /* padding-right: 40px; */
+        float: right;
+
+        }
+        .test .menu li{
+        display: block;
+        line-height: 80px;
+        position: relative;
+        }
+        .test .menu li a{
+        display: block;
+        text-decoration: none;
+        color: white;
+        text-transform: uppercase;
+        font-size: 20px;
+        width: 150px;
+        transition: 1s;
+        }
+        .test .menu li a:hover{
+        box-shadow: 0 1px 3px rgba(0,0,0,0.8), 0 0 3px rgba(0,0,0,0.05);
+        color: orange;
+        }       
+        .show-btn , .hide-btn{
+                display: block;
+            }
+            .test .show-btn{
+                display: block;
+            }
+            .test .hide-btn{
+                display: block;
+            }
+            .test .menu{
+                position: fixed;
+                top: 0;
+                /* slider effect creation */
+                right: -100%;
+                width: 100%;
+                height: 100vh;
+                background-color: grey;
+                text-align: center;
+                padding:100px 0px;
+                transition: 1s;
+            }
+            .test .menu li{display: block;}
+            .test .menu li a{display: block;
+                width: 100%;}
+            .header2 .menu{
+                position: fixed;
+                top: 0;
+                /* slider effect creation */
+                right: -100%;
+                width: 100%;
+                height: 100vh;
+                background-color: grey;
+                text-align: center;
+                padding:100px 0px;
+                transition: 1s;
+            }
+            #chk:checked ~ .menu{
+                right: 0;  
+            }
+            .test #chk:checked ~ .menu{
+                right: 0;  
+            }
+            .header2 .menu li{
+                display: block;
+            }
+            .header2 .menu li a{ 
+                display: block;
+                width: 100%;
+            }
+            .hide-btn{
+                position: absolute;
+                right:30px;
+                top :10px;
+            }
+            .test .hide-btn{
+                position: absolute;
+                right:30px;
+                top :10px;
+            }
+        }
+        @media(min-width: 0px) and (max-width: 599px){
+            header{
+            height: 400px;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            z-index: 20;
+            }
+            .header-img img{
+            top: 0;
+            width: 100%;
+            position: absolute;
+            height: 400px;
+            }
+            .header2{
+            position:fixed;
+            top: 0;
+            width: 100%;
+            height: 80px;
+            background-color: none;
+            padding-right: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            }
+            header .header2 h1{    
+            color: white;
+            text-transform: uppercase;
+            padding-left: 40px;
+            }
+            .header2 .menu{
+            list-style: none;
+            text-align: center;
+            float: right;   
+            }
+            .header2 .menu li{
+            display: block;
+            line-height: 80px;
+            position: relative;
+            }
+            .header2 .menu li a{
+            display: block;
+            text-decoration: none;
+            text-transform: uppercase;
+            color: white;
+            width: 150px;
+            font-size: 20px;
+            transition: 1s;
+            }
+            .header2 .menu li a:hover{
+            background-color: none;
+            color: black;
+            }
+        .submenu{
+        position: absolute;
+        background-color:rgb(146, 146, 140) ;
+        width: 250px;
+        top: 0px;
+        left: 70%;
+        display: none;
+        }
+        .submenu li a{
+        font-size: 20px;
+        text-transform: lowercase;
+        }
+        .menu li:hover .submenu{
+        display: block;
+        box-shadow: 0 1px 3px rgba(0,0,0,0.8), 0 0 3px rgba(0,0,0,0.05);
+        }
+        header .test .menu li .submenu{
+        position: absolute;
+        background-color:rgb(146, 146, 140) ;
+        width: 250px;
+        top: 0px;
+        left: 70%;
+        display: none;
+        }
+        header .test .menu li .submenu li a{
+        font-size: 20px;
+        text-transform: uppercase;
+        }
+        header .test .menu li:hover .submenu{
+        display: block;
+        box-shadow: 0 1px 3px rgba(0,0,0,0.8), 0 0 3px rgba(0,0,0,0.05);
+        }
+        header .test{
+        background-color: white;
+        position: fixed;
+        top: 0;
+        z-index: 1;
+        height: 80px;
+        width: 100%;
+        padding-right: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        }
+        header .test h1{
+        color: blue;
+        text-transform: uppercase;
+        padding-left: 40px;
+        }
+        .test .menu{
+        list-style: none;
+        text-align: center;
+        /* padding-right: 40px; */
+        float: right;
+
+        }
+        .test .menu li{
+        display: block;
+        line-height: 80px;
+        position: relative;
+        }
+        .test .menu li a{
+        display: block;
+        text-decoration: none;
+        color: white;
+        text-transform: uppercase;
+        font-size: 20px;
+        width: 150px;
+        transition: 1s;
+        }
+        .test .menu li a:hover{
+        box-shadow: 0 1px 3px rgba(0,0,0,0.8), 0 0 3px rgba(0,0,0,0.05);
+        color: orange;
+        }       
+        .show-btn , .hide-btn{
+                display: block;
+            }
+            .test .show-btn{
+                display: block;
+            }
+            .test .hide-btn{
+                display: block;
+            }
+            .test .menu{
+                position: fixed;
+                top: 0;
+                /* slider effect creation */
+                right: -100%;
+                width: 100%;
+                height: 100vh;
+                background-color: grey;
+                text-align: center;
+                padding:100px 0px;
+                transition: 1s;
+            }
+            .test .menu li{display: block;}
+            .test .menu li a{display: block;
+                width: 100%;}
+            .header2 .menu{
+                position: fixed;
+                top: 0;
+                /* slider effect creation */
+                right: -100%;
+                width: 100%;
+                height: 100vh;
+                background-color: grey;
+                text-align: center;
+                padding:100px 0px;
+                transition: 1s;
+            }
+            #chk:checked ~ .menu{
+                right: 0;  
+            }
+            .test #chk:checked ~ .menu{
+                right: 0;  
+            }
+            .header2 .menu li{
+                display: block;
+            }
+            .header2 .menu li a{ 
+                display: block;
+                width: 100%;
+            }
+            .hide-btn{
+                position: absolute;
+                right:30px;
+                top :10px;
+            }
+            .test .hide-btn{
+                position: absolute;
+                right:30px;
+                top :10px;
+            }
+        }        
