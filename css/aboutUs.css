@@ -1,11 +1,10 @@
-.main h1{
+.main .about-team h1{
+    
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 40px;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    text-transform: uppercase;
+
 }
 .main-1{
     margin-top: 30px;
@@ -14,7 +13,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    padding-bottom: 50px;
+    
 }
 .member{
     height: 300px;

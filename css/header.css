@@ -1,0 +1,127 @@
+header{
+    height: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-img img{
+    top: 0;
+    width: 100%;
+    position: absolute;
+    height: 600px;
+}
+
+header .header2{
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+header .header2 h1{
+    /* position: absolute; */
+    
+    color: white;
+    text-transform: uppercase;
+    padding-left: 40px;
+    /* z-index: 1; */
+}
+.header2 .menu{
+    
+    /* position: absolute;
+    z-index: 1; */
+    list-style: none;
+    text-align: center;
+    padding-right: 40px;
+}
+.header2 .menu li{
+    display: inline-block;
+    line-height: 80px;
+    position: relative;
+    
+}
+.header2 .menu li a{
+    display: block;
+    
+    text-decoration: none;
+    color: blue;
+    text-transform: uppercase;
+    font-size: 18px;
+    width: 150px;
+    transition: 0.4s;
+}
+.header2 .menu li a:hover{
+    /* background-color: blue; */
+    color: orange;
+    box-shadow: 3px 3px 3px black;
+}
+.submenu{
+    position: absolute;
+    background-color:white;
+    
+    width: 150px;
+    left: 0;
+    display: none;
+}
+.submenu li a{
+    font-size: 20px;
+    text-transform: lowercase;
+}
+.menu li:hover .submenu{
+    display: block;
+    box-shadow: 3px 3px 3px black;
+    
+}
+header .test{
+    background-color: white;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+            
+}
+header .test h1{
+            /* position: absolute; */
+            
+    color: blue;
+    text-transform: uppercase;
+    padding-left: 40px;
+            /* z-index: 1; */
+}
+.test .menu{
+            
+    /* position: absolute;
+    z-index: 1; */
+    list-style: none;
+    text-align: center;
+    padding-right: 40px;
+}
+.test .menu li{
+    display: inline-block;
+    line-height: 80px;
+    position: relative;
+}
+.test .menu li a{
+    display: block;
+    
+    text-decoration: none;
+    color: gray;
+    text-transform: uppercase;
+    font-size: 18px;
+    width: 150px;
+    transition: 0.4s;
+}
+.test .menu li a:hover{
+    box-shadow: 3px 3px 3px black;
+    color: orange;
+}
+        
