@@ -1,8 +1,7 @@
-.main{
+/* .main{
     position: relative;
 }
 .PGinformation{
-    /* position: relative; */
     top: 600px;
     width: 100%;
     height: 520px;
@@ -74,7 +73,6 @@
     padding-top: 20px;
     padding-bottom: 20px;
     padding-right: 20px;
-    /* border: 3px solid black; */
 }
 .PGinformation .PGinfo h1{
     
@@ -90,4 +88,398 @@
     text-align: justify;
     color: white;
     
+} */
+@media(min-width: 1200px){
+    .main{
+    position: relative;
+    }
+    .PGinformation{
+    /* position: relative; */
+    top: 600px;
+    width: 100%;
+    height: 520px;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(190, 208, 233);
+    margin-bottom: 20px;
+    }
+    .PGimgs{
+    width: 50%;
+    
+    
+    }
+    .PGinformation .PGimgs div .PGimg1{
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    border-radius: 50% 50%;
+    left: 130px;
+    top: 130px;
+    border: 5px solid skyblue;
+
+    }
+    .PGinformation .PGimgs div .PGimg1:hover{
+    transition: 100s;
+    border: none;
+    height: 155px;
+    width: 155px;
+    z-index: 1;
+    
+    }
+    .PGinformation .PGimgs div .PGimg2{
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    border-radius: 50% 50%;
+    left: 240px;
+    top: 40px;
+    border: 8px solid orange;
+    }
+    .PGinformation .PGimgs div .PGimg2:hover{
+    transition: 100s;
+    border: none;
+    height: 208px;
+    width: 208px;
+    z-index: 1;
+    
+    }
+    .PGinformation .PGimgs div .PGimg3{
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    border-radius: 50% 50%;
+    left: 200px;
+    top: 180px;
+    border: 12px solid greenyellow;
+    }
+    .PGinformation .PGimgs div .PGimg3:hover{
+    transition: 100s;
+    border: none;
+    height: 312px;
+    width: 312px;
+    z-index: 1;
+    
+    }
+    .PGinformation .PGinfo{
+    width: 60%;
+    overflow: hidden;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    /* border: 3px solid black; */
+    }
+    .PGinformation .PGinfo h1{
+    
+    font-size: 40px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: blue;
+    }
+    .PGinformation .PGinfo p{
+    font-size: 22px;
+    text-align: justify;
+    color: white;
+    
+    }
+}
+@media(min-width: 650px) and (max-width: 1199px){
+    .main{
+    /* position: relative; */
+    }
+    .PGinformation{
+    /* position: relative; */
+    /* top: 1120px; */
+    width: 100%;
+    height: 1120px;
+    display: flex;
+    flex-direction: column;
+    /* background-color: rgb(101, 129, 167); */
+    background-color: rgb(190, 208, 233);
+    margin-bottom: 20px;
+    }
+    .PGinformation .PGimgs{
+        top: 600px;
+        position: relative;
+    width: 100%;    
+    }
+    .PGinformation .PGimgs div .PGimg1{
+        /* top: 1120px; */
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    border-radius: 50% 50%;
+    left: 130px;
+    top: 130px;
+    border: 5px solid skyblue;
+
+    }
+    .PGinformation .PGimgs div .PGimg1:hover{
+    transition: 100s;
+    border: none;
+    height: 155px;
+    width: 155px;
+    z-index: 1;
+    
+    }
+    .PGinformation .PGimgs div .PGimg2{
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    border-radius: 50% 50%;
+    left: 240px;
+    top: 40px;
+    border: 8px solid orange;
+}
+.PGinformation .PGimgs div .PGimg2:hover{
+    transition: 100s;
+    border: none;
+    height: 208px;
+    width: 208px;
+    z-index: 1;
+    
+}
+.PGinformation .PGimgs div .PGimg3{
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    border-radius: 50% 50%;
+    left: 200px;
+    top: 180px;
+    border: 12px solid greenyellow;
+}
+.PGinformation .PGimgs div .PGimg3:hover{
+    transition: 100s;
+    border: none;
+    height: 312px;
+    width: 312px;
+    z-index: 1;
+    
+}
+.PGinformation .PGinfo{
+    top: 1120px;
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    /* border: 3px solid black; */
+}
+.PGinformation .PGinfo h1{
+    top: 1120px;
+    font-size: 40px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: blue;
+}
+.PGinformation .PGinfo p{
+    /* top: 1120px; */
+    font-size: 22px;
+    text-align: justify;
+    color: white;
+    
+}
+}
+@media(min-width: 450px) and (max-width: 649px){
+    .main{
+    /* position: relative; */
+    }
+    .PGinformation{
+    /* position: relative; */
+    /* top: 1120px; */
+    width: 100%;
+    height: 1120px;
+    display: flex;
+    flex-direction: column;
+    /* background-color: rgb(101, 129, 167); */
+    background-color: rgb(190, 208, 233);
+    margin-bottom: 20px;
+    }
+    .PGinformation .PGimgs{
+        top: 600px;
+        position: relative;
+    width: 100%;    
+    }
+    .PGinformation .PGimgs div .PGimg1{
+        /* top: 1120px; */
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    border-radius: 50% 50%;
+    left: 30px;
+    top: 130px;
+    border: 5px solid skyblue;
+
+    }
+    .PGinformation .PGimgs div .PGimg1:hover{
+    transition: 100s;
+    border: none;
+    height: 155px;
+    width: 155px;
+    z-index: 1;
+    
+    }
+    .PGinformation .PGimgs div .PGimg2{
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    border-radius: 50% 50%;
+    left: 140px;
+    top: 40px;
+    border: 8px solid orange;
+}
+.PGinformation .PGimgs div .PGimg2:hover{
+    transition: 100s;
+    border: none;
+    height: 208px;
+    width: 208px;
+    z-index: 1;
+    
+}
+.PGinformation .PGimgs div .PGimg3{
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    border-radius: 50% 50%;
+    left: 100px;
+    top: 180px;
+    border: 12px solid greenyellow;
+}
+.PGinformation .PGimgs div .PGimg3:hover{
+    transition: 100s;
+    border: none;
+    height: 312px;
+    width: 312px;
+    z-index: 1;
+    
+}
+.PGinformation .PGinfo{
+    top: 1120px;
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    /* border: 3px solid black; */
+}
+.PGinformation .PGinfo h1{
+    top: 1120px;
+    font-size: 40px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: blue;
+}
+.PGinformation .PGinfo p{
+    /* top: 1120px; */
+    font-size: 22px;
+    text-align: justify;
+    color: white;
+    
+}
+}
+@media(min-width: 225px) and (max-width: 449px){
+    .main{
+    /* position: relative; */
+    }
+    .PGinformation{
+    /* position: relative; */
+    /* top: 1120px; */
+    width: 100%;
+    height: 1190px;
+    display: flex;
+    flex-direction: column;
+    /* background-color: rgb(101, 129, 167); */
+    background-color: rgb(190, 208, 233);
+    margin-bottom: 20px;
+    }
+    .PGinformation .PGimgs{
+        top: 600px;
+        position: relative;
+    width: 100%;    
+    }
+    .PGinformation .PGimgs div .PGimg1{
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    border-radius: 50% 50%;
+    left: 30px;
+    top: 40px;
+    border: 8px solid orange;
+
+    }
+    .PGinformation .PGimgs div .PGimg1:hover{
+    transition: 100s;
+    border: none;
+    height: 158px;
+    width: 158px;
+    z-index: 1;
+    
+    }
+    .PGinformation .PGimgs div .PGimg2{
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    border-radius: 50% 50%;
+    left: 30px;
+    top: 210px;
+    border: 8px solid orange;
+}
+.PGinformation .PGimgs div .PGimg2:hover{
+    transition: 100s;
+    border: none;
+    height: 158px;
+    width: 158px;
+    z-index: 1;
+    
+}
+.PGinformation .PGimgs div .PGimg3{
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    border-radius: 50% 50%;
+    left: 30px;
+    top: 380px;
+    border: 8px solid orange;
+}
+.PGinformation .PGimgs div .PGimg3:hover{
+    transition: 100s;
+    border: none;
+    height: 158px;
+    width: 158px;
+    z-index: 1;
+    
+}
+.PGinformation .PGinfo{
+    top: 1120px;
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    /* border: 3px solid black; */
+}
+.PGinformation .PGinfo h1{
+    top: 1120px;
+    font-size: 26px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: blue;
+}
+.PGinformation .PGinfo p{
+    /* top: 1120px; */
+    font-size: 18px;
+    text-align: justify;
+    color: white;
+    
+}
 }
