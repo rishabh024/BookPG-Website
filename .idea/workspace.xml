@@ -21,7 +21,11 @@
   <component name="ChangeListManager">
     <list default="true" id="cb0c6dfb-9e95-40e8-a209-dd30edae7bf8" name="Default Changelist" comment="validation is done">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/PGinformation.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Book-single.html" beforeDir="false" afterPath="$PROJECT_DIR$/Book-single.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Divider.html" beforeDir="false" afterPath="$PROJECT_DIR$/Divider.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deluxe.html" beforeDir="false" afterPath="$PROJECT_DIR$/deluxe.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/family.html" beforeDir="false" afterPath="$PROJECT_DIR$/family.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/room.html" beforeDir="false" afterPath="$PROJECT_DIR$/room.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,6 +88,7 @@
       <workItem from="1606672870975" duration="444000" />
       <workItem from="1606739492417" duration="1672000" />
       <workItem from="1606741850142" duration="983000" />
+      <workItem from="1607175241596" duration="908000" />
     </task>
     <task id="LOCAL-00001" summary="roomdone">
       <created>1606643627063</created>
