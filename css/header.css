@@ -50,7 +50,8 @@ header .header2{
     
 }
 header .header2 h1{
-    color: white;
+    /* color: white; */
+    color: orangered;
     text-transform: uppercase;
     padding-left: 40px;
 }
