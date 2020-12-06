@@ -1,25 +1,28 @@
-         .header2 .show-btn:hover , .hide-btn:hover{
-            color: black;
-            /* transition: 2s; */
-        }
-        .show-btn , .hide-btn{
-            font-size: 30px;
-            /* color: white; */
-            color: black;
-            line-height: 80px;
-            display: none;
-        }
-        .show-btn{
-            float: right;
-        }
+.header2 .show-btn:hover , .hide-btn:hover{
+    color: black;
+    /* transition: 2s; */
+}
+
+.show-btn , .hide-btn{
+    font-size: 30px;
+    /* color: white; */
+    color: black;
+    line-height: 80px;
+    display: none;
+}
+
+.show-btn{
+    float: right;
+}
         
-        #chk {
-            position:absolute ;
-            visibility: hidden;
-            z-index: -10;
-        }
-        /* ------------------------------------------------header---------------------------------------------------------------- */
-        @media(min-width: 900px){
+#chk {
+    position:absolute ;
+    visibility: hidden;
+    z-index: -10;
+}
+
+/* ------------------------------------------------header---------------------------------------------------------------- */
+@media(min-width: 900px){
             header{
     height: 600px;
     width: 100%;
